@@ -1,0 +1,179 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaTerrify\\OktaTerrify.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaCommon\\OktaCommon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaCommon\\OktaCommon.csproj",
+        "projectName": "OktaCommon",
+        "projectPath": "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaCommon\\OktaCommon.csproj",
+        "packagesPath": "C:\\Users\\tgore\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaCommon\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tgore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net480"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net480",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net480",
+          "dependencies": {
+            "Dahomey.Cbor": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
+            "JWT": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Kerberos.NET": {
+              "target": "Package",
+              "version": "[4.6.50, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies.net481": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Mono.Reflection": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "NtApiDotNet": {
+              "target": "Package",
+              "version": "[1.1.33, )"
+            },
+            "jose-jwt": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaTerrify\\OktaTerrify.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaTerrify\\OktaTerrify.csproj",
+        "projectName": "OktaTerrify",
+        "projectPath": "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaTerrify\\OktaTerrify.csproj",
+        "packagesPath": "C:\\Users\\tgore\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaTerrify\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tgore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net480"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net480",
+            "projectReferences": {
+              "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaCommon\\OktaCommon.csproj": {
+                "projectPath": "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaCommon\\OktaCommon.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net480",
+          "dependencies": {
+            "IdentityModel.OidcClient": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "JWT": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies.net481": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Mono.Options": {
+              "target": "Package",
+              "version": "[6.12.0.148, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.5, )"
+            },
+            "NtApiDotNet": {
+              "target": "Package",
+              "version": "[1.1.33, )"
+            },
+            "dnMerge": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.5.15, )"
+            },
+            "sqlite-net-sqlcipher": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
