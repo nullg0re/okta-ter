@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.8.1": {
+    ".NETFramework,Version=v4.8": {
       "Dahomey.Cbor/1.21.0": {
         "type": "package",
         "dependencies": {
@@ -105,12 +105,6 @@
           "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETFramework.ReferenceAssemblies.net481": "1.0.3"
         }
       },
       "Microsoft.NETFramework.ReferenceAssemblies.net481/1.0.3": {
@@ -407,7 +401,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8.1/win7-x86": {
+    ".NETFramework,Version=v4.8/win7-x64": {
       "Dahomey.Cbor/1.21.0": {
         "type": "package",
         "dependencies": {
@@ -511,12 +505,6 @@
           "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETFramework.ReferenceAssemblies.net481": "1.0.3"
         }
       },
       "Microsoft.NETFramework.ReferenceAssemblies.net481/1.0.3": {
@@ -935,17 +923,6 @@
         "microsoft.extensions.logging.abstractions.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
-      "sha512": "vUc9Npcs14QsyOD01tnv/m8sQUnGTGOw1BCmKcv77LBJY7OxhJ+zJF7UD/sCL3lYNFuqmQEVlkfS4Quif6FyYg==",
-      "type": "package",
-      "path": "microsoft.netframework.referenceassemblies/1.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
-        "microsoft.netframework.referenceassemblies.nuspec"
       ]
     },
     "Microsoft.NETFramework.ReferenceAssemblies.net481/1.0.3": {
@@ -1808,8 +1785,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.8.1": [
-      "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.3",
+    ".NETFramework,Version=v4.8": [
       "Microsoft.NETFramework.ReferenceAssemblies.net481 >= 1.0.3",
       "Mono.Options >= 6.12.0.148",
       "OktaCommon >= 1.0.0",
@@ -1833,15 +1809,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net481"
+        "net48"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net481": {
-          "targetAlias": "net481",
+        "net48": {
+          "targetAlias": "net48",
           "projectReferences": {
             "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaCommon\\OktaCommon.csproj": {
               "projectPath": "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaCommon\\OktaCommon.csproj"
@@ -1861,15 +1837,9 @@
       }
     },
     "frameworks": {
-      "net481": {
-        "targetAlias": "net481",
+      "net48": {
+        "targetAlias": "net48",
         "dependencies": {
-          "Microsoft.NETFramework.ReferenceAssemblies": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[1.0.3, )",
-            "autoReferenced": true
-          },
           "Microsoft.NETFramework.ReferenceAssemblies.net481": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -1891,7 +1861,7 @@
       }
     },
     "runtimes": {
-      "win7-x86": {
+      "win7-x64": {
         "#import": []
       }
     }

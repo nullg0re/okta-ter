@@ -706,7 +706,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8/win7-x86": {
+    ".NETFramework,Version=v4.8/win7-x64": {
       "Dahomey.Cbor/1.21.0": {
         "type": "package",
         "dependencies": {
@@ -1093,7 +1093,7 @@
           "lib/net461/_._": {}
         },
         "native": {
-          "runtimes/win-x86/native/e_sqlcipher.dll": {}
+          "runtimes/win-x64/native/e_sqlcipher.dll": {}
         },
         "build": {
           "build/net461/_._": {}
@@ -2842,7 +2842,7 @@
       }
     },
     "runtimes": {
-      "win7-x86": {
+      "win7-x64": {
         "#import": []
       }
     }
