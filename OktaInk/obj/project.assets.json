@@ -407,7 +407,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8.1/win7-x64": {
+    ".NETFramework,Version=v4.8.1/win7-x86": {
       "Dahomey.Cbor/1.21.0": {
         "type": "package",
         "dependencies": {
@@ -1891,7 +1891,7 @@
       }
     },
     "runtimes": {
-      "win7-x64": {
+      "win7-x86": {
         "#import": []
       }
     }

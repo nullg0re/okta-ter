@@ -706,7 +706,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8/win7-x64": {
+    ".NETFramework,Version=v4.8/win7-x86": {
       "Dahomey.Cbor/1.21.0": {
         "type": "package",
         "dependencies": {
@@ -1093,7 +1093,7 @@
           "lib/net461/_._": {}
         },
         "native": {
-          "runtimes/win-x64/native/e_sqlcipher.dll": {}
+          "runtimes/win-x86/native/e_sqlcipher.dll": {}
         },
         "build": {
           "build/net461/_._": {}
@@ -2766,7 +2766,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net480"
+        "net48"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -2774,7 +2774,7 @@
       },
       "frameworks": {
         "net48": {
-          "targetAlias": "net480",
+          "targetAlias": "net48",
           "projectReferences": {
             "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaCommon\\OktaCommon.csproj": {
               "projectPath": "C:\\Users\\tgore\\source\\github.com\\okta-terrify\\OktaCommon\\OktaCommon.csproj"
@@ -2795,7 +2795,7 @@
     },
     "frameworks": {
       "net48": {
-        "targetAlias": "net480",
+        "targetAlias": "net48",
         "dependencies": {
           "IdentityModel.OidcClient": {
             "target": "Package",
@@ -2842,7 +2842,7 @@
       }
     },
     "runtimes": {
-      "win7-x64": {
+      "win7-x86": {
         "#import": []
       }
     }
